@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-06-13T12:59:40.013Z",
+    "end": "2023-06-13T12:59:40.801Z",
+    "duration": 788,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "89fe5b53-9702-4f6b-ab50-fe245762ef3c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\cucumber-tests\\features\\editUser.feature",
+      "file": "cypress\\e2e\\cucumber-tests\\features\\editUser.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "An uncaught error was detected outside of a test",
+          "fullTitle": "An uncaught error was detected outside of a test",
+          "timedOut": null,
+          "duration": 595,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "[\n  {\n    \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n    \"value\": \"cypress\\\\e2e\\\\cucumber-tests\\\\features\\\\editUser.feature\"\n  },\n  {\n    \"title\": \"cypress-mochawesome-reporter-screenshots\",\n    \"value\": [\n      [\n        \"\\\\editUser.feature\\\\An uncaught error was detected outside of a test (failed).png\"\n      ]\n    ]\n  }\n]",
+          "code": "throw err;",
+          "err": {
+            "message": "Error: The following error originated from your test code, not from Cypress.\n\n  > Unexpected argument for Before hook\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+            "estack": "Error: The following error originated from your test code, not from Cypress.\n\n  > Unexpected argument for Before hook\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at defineBefore (node_modules/@badeball/cypress-cucumber-preprocessor/dist/entrypoint-browser.js:46:0)\n    at 7.../../Pages/DashBoardPage (cypress/e2e/cucumber-tests/stepdefinition/base.js:5:7)\n    at o (node_modules/browser-pack/_prelude.js:1:0)\n    at eval (node_modules/browser-pack/_prelude.js:1:0)\n    at 5.C:\\Users\\krishnakhandelwal\\Desktop\\NAGP\\Cypress_Nagp_Project\\cypress\\e2e\\cucumber-tests\\stepdefinition\\api.js (cypress/e2e/cucumber-tests/features/editUser.feature:6:0)\n    at o (node_modules/browser-pack/_prelude.js:1:0)\n    at r (node_modules/browser-pack/_prelude.js:1:0)\n    at eval (node_modules/browser-pack/_prelude.js:1:0)\n    at eval (<anonymous>)",
+            "diff": null
+          },
+          "uuid": "b8628055-79ab-4373-b6b8-e4fccc7e601b",
+          "parentUUID": "89fe5b53-9702-4f6b-ab50-fe245762ef3c",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "b8628055-79ab-4373-b6b8-e4fccc7e601b"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 595,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

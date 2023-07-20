@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 3,
+    "failures": -2,
+    "start": "2023-06-13T15:52:18.877Z",
+    "end": "2023-06-13T15:52:18.991Z",
+    "duration": 114,
+    "testsRegistered": 3,
+    "passPercent": null,
+    "pendingPercent": 100,
+    "other": 2,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a524582e-ff63-428a-ac44-db6442f7fb52",
+      "title": "",
+      "fullFile": "cypress\\e2e\\cucumber-tests\\features\\newUser.feature",
+      "file": "cypress\\e2e\\cucumber-tests\\features\\newUser.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d0f372b2-e0cb-4203-a269-6318f64d1319",
+          "title": "Create new user Feature",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate all the Quick Launch Texts on dashboard",
+              "fullTitle": "Create new user Feature Validate all the Quick Launch Texts on dashboard",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-pending\",\n  \"value\": \"cypress\\\\e2e\\\\cucumber-tests\\\\features\\\\newUser.feature\"\n}",
+              "code": "",
+              "err": {},
+              "uuid": "0cb8a5ea-240b-4bca-8682-f86d20d851ab",
+              "parentUUID": "d0f372b2-e0cb-4203-a269-6318f64d1319",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a new user profile, search and Delete the profile",
+              "fullTitle": "Create new user Feature Create a new user profile, search and Delete the profile",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-pending\",\n  \"value\": \"cypress\\\\e2e\\\\cucumber-tests\\\\features\\\\newUser.feature\"\n}",
+              "code": "",
+              "err": {},
+              "uuid": "38895ac1-537e-421e-9a96-7d8804c61a82",
+              "parentUUID": "d0f372b2-e0cb-4203-a269-6318f64d1319",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "'Search' and 'Delete' the user profile",
+              "fullTitle": "Create new user Feature 'Search' and 'Delete' the user profile",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-pending\",\n  \"value\": \"cypress\\\\e2e\\\\cucumber-tests\\\\features\\\\newUser.feature\"\n}",
+              "code": "",
+              "err": {},
+              "uuid": "695ca130-de1f-45cf-9c02-a5d409b9ac93",
+              "parentUUID": "d0f372b2-e0cb-4203-a269-6318f64d1319",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [
+            "0cb8a5ea-240b-4bca-8682-f86d20d851ab",
+            "38895ac1-537e-421e-9a96-7d8804c61a82",
+            "695ca130-de1f-45cf-9c02-a5d409b9ac93"
+          ],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

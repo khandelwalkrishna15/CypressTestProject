@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-13T11:26:18.423Z",
+    "end": "2023-06-13T11:26:19.288Z",
+    "duration": 865,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "63a8cdc4-1437-4393-baf5-b3f606d95960",
+      "title": "",
+      "fullFile": "cypress\\e2e\\unitTests\\Test_API.cy.js",
+      "file": "cypress\\e2e\\unitTests\\Test_API.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "976020a0-f4ec-45f4-b718-9655286f6001",
+          "title": "API Testing ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "GET Request",
+              "fullTitle": "API Testing  GET Request",
+              "timedOut": null,
+              "duration": 417,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\unitTests\\\\Test_API.cy.js\"\n}",
+              "code": "cy.request({\n  method: 'GET',\n  url: 'https://reqres.in/api/users?page=2'\n}).then(function (response) {\n  expect(response.status).to.eq(200);\n  expect(response.body.page).to.eq(2);\n  expect(response.body.per_page).to.eq(response.body.data.length);\n  //to validate a spectific email address presnt or not \n  var responseBody = response.body;\n  var users = responseBody.data;\n  var specificEmail = 'tobias.funke@reqres.in';\n  var emailExists = false;\n  for (var i = 0; i < users.length; i++) {\n    if (users[i].email === specificEmail) {\n      emailExists = true;\n      break;\n    }\n  }\n  // Assertion to check if the specific email exists\n  expect(emailExists).to.be[\"true\"];\n});",
+              "err": {},
+              "uuid": "f1bd19c4-117b-4784-903e-a3120182a10d",
+              "parentUUID": "976020a0-f4ec-45f4-b718-9655286f6001",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "POST Request",
+              "fullTitle": "API Testing  POST Request",
+              "timedOut": null,
+              "duration": 417,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\unitTests\\\\Test_API.cy.js\"\n}",
+              "code": "//const payload = require('../fixtures/apiTestData.json')\nvar jsonSchema = require('../../fixtures/schema.json');\ncy.request({\n  method: 'POST',\n  url: 'https://reqres.in/api/users',\n  body: {\n    \"name\": \"morpheus\",\n    \"job\": \"leader\"\n  }\n}).then(function ($response) {\n  expect($response.status).to.eq(201);\n  expect($response.body.id).is.not.empty;\n  expect($response.body).to.have.property('createdAt');\n  expect($response.body.name).to.eq('morpheus');\n  expect($response.headers).to.have.property('content-type', 'application/json; charset=utf-8');\n  expect($response.duration).to.be.a('number');\n  expect($response.duration).to.be.lessThan(500);\n  var responseBody = $response.body;\n  var users = responseBody.data;\n  var specificEmail = 'tobias.funke@reqres.in';\n  expect($response.body).to.be.jsonSchema(jsonSchema);\n  // const $userId = $response.body.id\n  //     return $userId\n});",
+              "err": {},
+              "uuid": "7643ee4e-a4fc-4e99-9a64-6b669c3cacab",
+              "parentUUID": "976020a0-f4ec-45f4-b718-9655286f6001",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f1bd19c4-117b-4784-903e-a3120182a10d",
+            "7643ee4e-a4fc-4e99-9a64-6b669c3cacab"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 834,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

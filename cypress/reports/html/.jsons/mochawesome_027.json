@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 3,
+    "failures": -2,
+    "start": "2023-06-13T15:33:14.432Z",
+    "end": "2023-06-13T15:33:14.570Z",
+    "duration": 138,
+    "testsRegistered": 3,
+    "passPercent": null,
+    "pendingPercent": 100,
+    "other": 2,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e2955077-26e6-4df6-a3d6-5f414095ee41",
+      "title": "",
+      "fullFile": "cypress\\e2e\\cucumber-tests\\features\\newTab.feature",
+      "file": "cypress\\e2e\\cucumber-tests\\features\\newTab.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4b1ea723-797e-4d69-b8e9-11755ea12ccb",
+          "title": "Handling of new browser Tab and window",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Handling new Browser Tab with removing the target attribute (example #1)",
+              "fullTitle": "Handling of new browser Tab and window Handling new Browser Tab with removing the target attribute (example #1)",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-pending\",\n  \"value\": \"cypress\\\\e2e\\\\cucumber-tests\\\\features\\\\newTab.feature\"\n}",
+              "code": "",
+              "err": {},
+              "uuid": "ab3c249c-e0ed-47ed-a1fe-981d5dc30814",
+              "parentUUID": "4b1ea723-797e-4d69-b8e9-11755ea12ccb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Handling new Browser Tab without removing the target attribute (example #1)",
+              "fullTitle": "Handling of new browser Tab and window Handling new Browser Tab without removing the target attribute (example #1)",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-pending\",\n  \"value\": \"cypress\\\\e2e\\\\cucumber-tests\\\\features\\\\newTab.feature\"\n}",
+              "code": "",
+              "err": {},
+              "uuid": "b1094cbb-750f-4e90-9ea8-6d1a31b46c05",
+              "parentUUID": "4b1ea723-797e-4d69-b8e9-11755ea12ccb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Handling new Browser Window (example #1)",
+              "fullTitle": "Handling of new browser Tab and window Handling new Browser Window (example #1)",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-pending\",\n  \"value\": \"cypress\\\\e2e\\\\cucumber-tests\\\\features\\\\newTab.feature\"\n}",
+              "code": "",
+              "err": {},
+              "uuid": "ec9035fb-33f0-42ba-8d50-7c44e5e8a017",
+              "parentUUID": "4b1ea723-797e-4d69-b8e9-11755ea12ccb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [
+            "ab3c249c-e0ed-47ed-a1fe-981d5dc30814",
+            "b1094cbb-750f-4e90-9ea8-6d1a31b46c05",
+            "ec9035fb-33f0-42ba-8d50-7c44e5e8a017"
+          ],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

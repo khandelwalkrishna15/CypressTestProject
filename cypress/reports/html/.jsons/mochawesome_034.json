@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 2,
+    "failures": -1,
+    "start": "2023-06-13T15:59:20.377Z",
+    "end": "2023-06-13T15:59:20.694Z",
+    "duration": 317,
+    "testsRegistered": 2,
+    "passPercent": null,
+    "pendingPercent": 100,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e0c6218e-c4b5-4ddf-8125-17d016f23a7e",
+      "title": "",
+      "fullFile": "cypress\\e2e\\cucumber-tests\\features\\editUser.feature",
+      "file": "cypress\\e2e\\cucumber-tests\\features\\editUser.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "208059e2-6f85-4292-8b93-4a5aaf131a19",
+          "title": "Create new user Feature",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a new user profile, Edit  and upload file the job information",
+              "fullTitle": "Create new user Feature Create a new user profile, Edit  and upload file the job information",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-pending\",\n  \"value\": \"cypress\\\\e2e\\\\cucumber-tests\\\\features\\\\editUser.feature\"\n}",
+              "code": "",
+              "err": {},
+              "uuid": "f42bfaf6-2442-4143-b5c0-a5701e4aa5ea",
+              "parentUUID": "208059e2-6f85-4292-8b93-4a5aaf131a19",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a new user profile, Edit the job information and then Delete the profile",
+              "fullTitle": "Create new user Feature Create a new user profile, Edit the job information and then Delete the profile",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-pending\",\n  \"value\": \"cypress\\\\e2e\\\\cucumber-tests\\\\features\\\\editUser.feature\"\n}",
+              "code": "",
+              "err": {},
+              "uuid": "82789488-b2c7-42bb-b9c9-209a93c464e7",
+              "parentUUID": "208059e2-6f85-4292-8b93-4a5aaf131a19",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [
+            "f42bfaf6-2442-4143-b5c0-a5701e4aa5ea",
+            "82789488-b2c7-42bb-b9c9-209a93c464e7"
+          ],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

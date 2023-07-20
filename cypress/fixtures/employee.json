@@ -1,0 +1,23 @@
+{   
+    "id" : "6895",
+    "firstName":"Krishna",
+    "lastName": "Khandelwal",    
+    "username": "KrishnaNew",
+    "password": "Krishna123@",
+    "imagePath":"cypress/fixtures/profileImage/Profile.png",
+    "successmsg":"Successfully Saved",
+    "job": {
+      "dateofJoin": "2017-06-12",
+      "jobTitle": "QA Engineer",
+      "jobCategory": "Professionals",
+      "subUnit": "Quality Assurance",
+      "employmentStatus": "Full-Time Permanent",
+      "doc": "cypress/fixtures/docs/Test.docx",
+      "termination":{
+          "dateTermaintion" : "2023-06-12",
+          "reason" : "Contract Not Renewed"
+      }
+    },
+    "deleteMsg":"Successfully Deleted",
+    "updateMsg":"Successfully Updated"
+  }

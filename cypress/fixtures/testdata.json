@@ -1,0 +1,6 @@
+{
+    "username": "Admin",
+    "password": "admin123",
+    "pagetitle": "Dashboard",
+    "quickLaunch": ["Assign Leave", "Leave List", "Timesheets", "Apply Leave", "My Leave", "My Timesheet"]
+}
